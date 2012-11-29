@@ -39,8 +39,11 @@ public class MoreStuffMod
 	@Init
 	public void moreStuffMod(FMLInitializationEvent event)
 	{	
-		//Init Blocks
+		// Init Blocks
 		MSMBlock.initBlocks();
+		
+		// Register Blocks
+		MSMBlock.registerBlocks();
 	}
 	
 	@PostInit
