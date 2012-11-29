@@ -27,7 +27,8 @@ public class MSMBlock extends Block
 	public MSMBlock(int par1, int par2, Material par3) 
 	{ 
 		super(par1, par2, par3); 
-		//this.setCreativeTab(MoreStuffMod.tabMSMBlock); 
+		//this.setCreativeTab(MoreStuffMod.tabMSMBlock);
+		setTextureFile(Reference.SPRITE_SHEET_LOCATION + Reference.BLOCK_SPRITE_SHEET);
 	}
 	
 	/*
@@ -157,7 +158,7 @@ public class MSMBlock extends Block
 		GameRegistry.registerBlock(palladium);
 		GameRegistry.registerBlock(bloodstone);
 		GameRegistry.registerBlock(refGlowstone);
+		GameRegistry.registerBlock(pureObsidian);
 	}
-
 
 }

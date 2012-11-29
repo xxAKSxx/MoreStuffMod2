@@ -44,6 +44,12 @@ public class MoreStuffMod
 		
 		// Register Blocks
 		MSMBlock.registerBlocks();
+		
+		// Init Items
+		MSMItem.initItems();
+		
+		// Item Name Registrations
+		MSMItem.nameItems();
 	}
 	
 	@PostInit
